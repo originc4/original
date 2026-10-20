@@ -1,21 +1,21 @@
-# C Starter
+# C 入门示例
 
-A small, beginner-friendly C program that reads two numbers and prints their sum.
+这是一个简单的 C 语言程序：读取两个数字并输出它们的和。
 
-## Build and run
+## 编译和运行
 
-With GCC or Clang:
+使用 GCC 或 Clang：
 
 ```sh
 cc -std=c11 -Wall -Wextra -pedantic main.c -o c-starter
 ./c-starter
 ```
 
-On Windows with MinGW:
+Windows 用户使用 MinGW：
 
 ```sh
 gcc -std=c11 -Wall -Wextra -pedantic main.c -o c-starter.exe
 ./c-starter.exe
 ```
 
-Enter two numbers separated by a space, for example: `12.5 3`.
+运行后，请输入两个数字并用空格分隔，例如：`12.5 3`。
