@@ -6,11 +6,11 @@ int main(void)
     double first;
     double second;
 
-    puts("C Starter: Addition");
-    printf("Enter two numbers separated by a space: ");
+    puts("C 入门示例：加法");
+    printf("请输入两个数字，并用空格分隔：");
 
     if (scanf("%lf %lf", &first, &second) != 2) {
-        fputs("Invalid input. Please enter two numbers.\n", stderr);
+        fputs("输入无效，请输入两个数字。\n", stderr);
         return EXIT_FAILURE;
     }
 
